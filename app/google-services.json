@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "141345810015",
+    "firebase_url": "https://testrainsensor.firebaseio.com",
+    "project_id": "testrainsensor",
+    "storage_bucket": "testrainsensor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141345810015:android:cd6b6a484072e0fd",
+        "android_client_info": {
+          "package_name": "com.example.yossatron.projectiot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141345810015-jj0u1to7916i7137ljeqh8d6gl6g1tsi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yossatron.projectiot",
+            "certificate_hash": "e7f202e40bf943fb5779eb00e636d3e2b7e2cede"
+          }
+        },
+        {
+          "client_id": "141345810015-jl1g62n4abvbsj8314lnt0qgb1bisi8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXOeh6pVJ1ykBhlELguD-PcdxezPxRdlA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141345810015-jl1g62n4abvbsj8314lnt0qgb1bisi8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="2"
+    tools:context="com.example.yossatron.projectiot.MainActivity"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:src="@drawable/giphy"
+        android:background="@color/colorAccent"/>
+    <TextView
+        android:id="@+id/firebaseusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="60px"
+        android:text="1"
+        android:background="@color/colorPrimary"></TextView>
+
+    <TextView
+        android:id="@+id/firebaseusername1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="260px"
+        android:text="1"
+        android:background="@color/colorPrimaryDark"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:background="@color/colorAccent">
+
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="on/off"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="list to day"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"></Button>
+
+
+</LinearLayout>
